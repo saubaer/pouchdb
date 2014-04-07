@@ -21,7 +21,6 @@ LevelPouchAlt.destroy = utils.toPromise(function (name, opts, callback) {
     callback = opts;
     opts = {};
   }
-
   var _opts = utils.extend({
     db: levelalt
   }, opts);
